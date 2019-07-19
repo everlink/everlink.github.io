@@ -8,7 +8,7 @@ bodyClass: page-contact
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h1>Contact</h1>
+        <h1>联系方式</h1>
       </div>
     </div>
   </div>
@@ -17,13 +17,14 @@ bodyClass: page-contact
   <div class="row">
     <div class="col-12 col-md-8">
       <ul>
-        <li><strong>Phone: </strong>{{ site.data.contact.phone }}</li>
-        <li><strong>Email: </strong><a href="mailto:{{ site.data.contact.email }}">
+        <!--<li><strong>Phone: </strong>{{ site.data.contact.phone }}</li>-->
+        <li><strong>微信号/QQ: </strong>1327772013</li>
+        <li><strong>邮件: </strong><a href="mailto:{{ site.data.contact.email }}">
             {{ site.data.contact.email }}</a></li>
         {% if site.data.contact.address %}
-        <li><strong>Address: </strong>{{ site.data.contact.address }}</li>
+        <li><strong>地址: </strong>{{ site.data.contact.address }}</li>
         {% endif %}
-      </ul>
+      </ul> <!--
       <h4 class="mt-4">Business Hours</h4>
       <table class="table table-sm opening-hours-table">
         <tr>
@@ -68,7 +69,7 @@ bodyClass: page-contact
           <td> </td>
           <td class="closes"></td>
         </tr>
-      </table>
+      </table> -->
     </div>
   </div>
 </div>
