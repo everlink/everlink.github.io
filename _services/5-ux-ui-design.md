@@ -1,5 +1,5 @@
 ---
-title: "Mergers"
+title: "美术设计、平面设计，交互设计、MMI设计"
 image: "/services/default.png"
 ---
 

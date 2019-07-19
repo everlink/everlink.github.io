@@ -1,17 +1,17 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients recieve an obligation free consultation.",
+    "title": "咨询、培训",
+    "description": "我们乐于分享我们的故事，我们犯过的错误和从犯错中学到的知识和经验。我们希望伙伴不需要重新发明轮胎、也避免踩一些我们踩过的坑",
     "image": "images/features/noun_branding_1885335.svg"
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "委托开发",
+    "description": "我们承接各种电子硬件开发项目，电子产品类软件项目，物联网项目，互联网服务器端的开发项目。从51单片机系统到强交互的互联网电子产品我们都有实际项目经验。",
     "image": "images/features/noun_The Process_1885341.svg"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "合作开发",
+    "description": "共同探讨最优的，为产品或项目开发提升效率、节约时间和金钱。我们相信应专注各自最熟悉的业务领域；我们相信合作共赢",
     "image": "images/features/noun_3d modeling_1885342.svg"
   }
 ]
