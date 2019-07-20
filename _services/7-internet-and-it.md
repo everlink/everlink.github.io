@@ -26,6 +26,6 @@ image: '/services/noun_591323.png'
 - 具备 RAID 硬件的 服务器，并运行 ubuntu linux server
 - samba 系统
 - gitlab 系统
-- readmine 系统
+- redmine 系统
 
 您可以按照以上清单配置，或者我们来为您配置。
