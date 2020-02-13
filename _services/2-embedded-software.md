@@ -1,5 +1,6 @@
 ---
 title: '嵌入式软件开发'
+brief: "51系统到LINUX系统的全系列开发支持"
 image: '/services/default.png'
 ---
 

@@ -6,8 +6,11 @@ bodyClass: page-home
 
 <div class="intro pb-4">
   <div class="container">
-    <h1>连接而汇聚力量<br/>创新并实现价值</h1>
-    <p>我们正通过不断努力，运用我们不断学习的知识、技能和经验，和我们的客户一起创造新的价值。</p>
+    <!--
+      <h1>凝聚力量<br/>创造价值</h1>
+    -->
+    <h1>LINK UP<br/>CREATE VALUE</h1>
+    <p>始终相信各有专长，所以连接在一起就能创造新的价值。</p>
   </div>
 </div>
 
@@ -15,11 +18,12 @@ bodyClass: page-home
   <div class="call">
     <div class="call-box-top">
       <!--<div class="call-phone"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>-->
-      <div class="call-phone"><strong>微信号/QQ: </strong> 1327772013 </div>
-      <div class="call-email"><strong>邮件: </strong>
+      <div class="call-phone">微信: <strong> 1327772013 </strong></div>
+      <div class="call-phone">QQ : <strong> 1327772013 </strong></div>
+      <div class="call-email">邮件: <strong>
         <a href="mailto:{{ site.data.contact.email }}">
           {{ site.data.contact.email }}
-        </a>
+        </a></strong>
       </div>
     </div>
     <div class="call-box-bottom">
@@ -31,7 +35,7 @@ bodyClass: page-home
 <div class="container pt-8 pt-md-10">
   <div class="row justify-content-start">
     <div class="col-12">
-      <h2 class="title-3 text-dark mb-3">我们的服务</h2>
+      <h2 class="title-3 text-dark mb-3">服务和产品</h2>
     </div>
     {% for service in site.services %}
     <div class="col-12 col-md-4 mb-1">
@@ -40,17 +44,23 @@ bodyClass: page-home
           <h2 class="service-title">
             <a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a>
           </h2>
-          {{ service.content | markdownify | strip_html | truncate: 100 }}
+          {{ service.brief | markdownify | strip_html | truncate: 100 }}
+          <a href="{{site.baseurl}}{{ service.url }}">[详情]</a>
         </div>
       </div>
     </div>
     {% endfor %}
+    <div class="col-12">
+      <h2 class="title-3 text-dark mb-3"></br></h2>
+    </div>
+    <!--
     <div class="col-12 text-center">
       <a class="button button-primary mt-2" href="{{site.baseurl}}/services">我们的其它服务</a>
     </div>
+    -->
   </div>
 </div>
-
+<!--
 <div class="container pt-5 pb-5 pt-md-7 pb-md-7">
   <div class="row justify-content-center">
     <div class="col-12">
@@ -67,3 +77,4 @@ bodyClass: page-home
     {% endfor %}
   </div>
 </div>
+-->

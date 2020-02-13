@@ -1,5 +1,6 @@
 ---
-title: '电子类硬件设计服务'
+title: '电子硬件'
+brief: "消费电子类硬件的设计和咨询服务，工业、农业物联网方案咨"
 image: '/services/default.png'
 ---
 

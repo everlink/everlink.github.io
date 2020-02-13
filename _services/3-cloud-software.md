@@ -1,5 +1,6 @@
 ---
-title: "云端软件系统设计开发"
+title: "云端系统开发"
+brief: "灵活运用适当工具、平台建构高负载量的接口应用；同时降低部署成本"
 image: "/services/default.png"
 ---
 
