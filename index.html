@@ -35,9 +35,25 @@ bodyClass: page-home
 <div class="container pt-8 pt-md-10">
   <div class="row justify-content-start">
     <div class="col-12">
-      <h2 class="title-3 text-dark mb-3">服务和产品</h2>
+      <h2 class="title-3 text-dark mb-3">服务</h2>
     </div>
     {% for service in site.services %}
+    <div class="col-12 col-md-4 mb-1">
+      <div class="service service-summary">
+        <div class="service-content">
+          <h2 class="service-title">
+            <a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a>
+          </h2>
+          {{ service.brief | markdownify | strip_html | truncate: 100 }}
+          <a href="{{site.baseurl}}{{ service.url }}">[详情]</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+    <div class="col-12">
+      <h2 class="title-3 text-dark mb-3">电子模块和开发板</h2>
+    </div>
+    {% for service in site.products %}
     <div class="col-12 col-md-4 mb-1">
       <div class="service service-summary">
         <div class="service-content">

@@ -7,6 +7,9 @@ collections:
   services:
     output: true
     permalink: /services/:path/
+  products:
+    output: true
+    permalink: /products/:path/
   team:
     output: true
     permalink: /team/:path/
@@ -19,6 +22,11 @@ defaults:
       type: services
     values:
       layout: service
+      bodyClass: page-services-single
+  - scope:
+      type: products
+    values:
+      layout: product
       bodyClass: page-services-single
   - scope:
       path: 'images'
